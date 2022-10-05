@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sandro Martins"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/txtIntroducao"
+        android:layout_width="358dp"
+        android:layout_height="302dp"
+        android:layout_marginTop="20dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl urna, facilisis non diam et, molestie elementum massa. Curabitur nec turpis vel purus posuere interdum. Nulla ultrices augue nisl, quis aliquam purus scelerisque quis. Duis efficitur nulla vel metus fermentum euismod. In ornare lorem vitae felis pharetra, sit amet dictum arcu imperdiet. Etiam id erat elementum, rhoncus nibh in, rutrum orci. Vivamus eleifend quam nisi, nec tempus urna finibus id. Suspendisse ullamcorper, risus in tempor fermentum, metus justo semper nulla, a blandit mauris arcu nec ex. Pellentesque a quam et urna placerat vestibulum ut et magna. Sed bibendum consectetur vestibulum. Aenean vel porta quam. Nullam porta tristique dui, eu lobortis justo hendrerit quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FA0808"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="297dp"
+        android:layout_height="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtIntroducao"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/abertura" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
